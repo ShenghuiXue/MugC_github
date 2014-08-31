@@ -13,7 +13,7 @@ kenzhao100@hotmail.com
 
 
 All rights reserved.
-This file is part of MugC.  Additional BSD Notice.
+This file is part of MugC. Additional BSD Notice.
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  Redistributions of source code must retain the above copyright notice, this list of conditions and the disclaimer below.
  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the disclaimer (as noted below) in the documentation and/or other materials provided with the distribution.
@@ -29,12 +29,11 @@ A Proper Usage example: java src/MUGC -i 4 -l 1.74 -u 4.9
 -l The lower limit of distance between carbon atoms and calcium center. Default=1.74
 -u The upper limit of distance between carbon atoms and calcium center. Default=4.9
 
-# Help:
-A help example: java /src/MugC -help
-
 ######################################################################
 
 Installation Instructions 
+
+The code has been tested on both Windows(MS-DOS) and Linux (CentOS) with Java Version 1.7. 
 
 1) File Structure.
 
@@ -50,9 +49,9 @@ Installation Instructions
        │   └───mugcarbonlist
        └───utils
 
-0) Please empty all previous results in the predictionResults folder.
+0) Please empty all previous results in the predictionResults folder.  
 	   
-1) Compile the source codes at the current MugC folder.
+1) Compile the source codes at the current MugC folder.  
 javac src/MugC.java
 
 2) Prepare load the PDB file into "inputdata" folder under the "MugC" folder. In an example come with this tool, "3CLN.pdb" is already in the inputdata folder.
